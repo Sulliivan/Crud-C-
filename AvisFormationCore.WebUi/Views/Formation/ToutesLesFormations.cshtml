@@ -1,0 +1,16 @@
+﻿@model List<Data.Formation>
+@{
+    ViewData["Title"] = "ToutesLesFormations";
+}
+
+<h1>Toutes nos formations</h1>
+
+@foreach (var formation in Model)
+{
+    <p>Nom de la formation : @formation.Nom</p>
+    <p>Nom de la formation : formation.Nom</p>
+    <p>Description de la formation : @formation.Description</p>
+    <p>NomSeo de la formation : @formation.NomSeo</p>
+    <br/>
+}
+
