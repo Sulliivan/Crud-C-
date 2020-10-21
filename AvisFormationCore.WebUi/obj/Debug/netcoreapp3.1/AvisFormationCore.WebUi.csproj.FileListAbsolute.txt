@@ -168,3 +168,4 @@ C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Formation\ToutesLesFormations.cshtml.g.cs
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Formation\DetailsFormations.cshtml.g.cs
+C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Avis\LaisserUnAvis.cshtml.g.cs
