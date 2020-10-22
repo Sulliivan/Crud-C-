@@ -31,7 +31,6 @@ namespace Data
 
             // return _formations.Where(f => f.Id == iIdFormation).FirstOrDefault();
             return _formations.FirstOrDefault(f => f.Id == iIdFormation);
-
         }
     }
 }
