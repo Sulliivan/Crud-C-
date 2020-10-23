@@ -8,14 +8,14 @@ namespace AvisFormationCore.WebUi.Models
 {
     public class LaisserUnAvisViewModel
     {
-        [StringLength(5)]
+        [StringLength(100,ErrorMessage ="Le texte du commentaire dépasse la tailler maximal autorisée")]
         public string Commentaire { get; set; }
         [Required]
         public string Nom { get; set; }
         [Required]
         public string Note { get; set; }
         [Required]
-        public string idFormation { get; set; }
+        public string IdFormation { get; set; }
 
         public string NomFormation { get; set; }
     }

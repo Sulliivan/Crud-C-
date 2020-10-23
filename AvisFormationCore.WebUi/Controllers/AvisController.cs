@@ -11,6 +11,13 @@ namespace AvisFormationCore.WebUi.Controllers
     public class AvisController : Controller
     {
 
+        IFormationRepository _repository;
+        public AvisController(IFormationRepository repository)
+        {
+            _repository = repository;
+        }
+
+
         public IActionResult LaisserUnAvis(string idFormation)
         {
             int iIdFormation = -1;
@@ -19,8 +26,7 @@ namespace AvisFormationCore.WebUi.Controllers
                 return RedirectToAction("ToutesLesFormations", "Formation");
             }
 
-            FormationMemoryRepository repository = new FormationMemoryRepository();
-            var formation = repository.GetFormationById(iIdFormation);
+            var formation = _repository.GetFormationById(iIdFormation);
             if (formation == null)
             {
                 return RedirectToAction("ToutesLesFormations", "Formation");
@@ -28,7 +34,7 @@ namespace AvisFormationCore.WebUi.Controllers
 
             var vm = new LaisserUnAvisViewModel();
             vm.NomFormation = formation.Nom;
-            vm.idFormation = formation.Id.ToString();
+            vm.IdFormation = formation.Id.ToString();
 
             return View(vm);
         }
@@ -43,13 +49,13 @@ namespace AvisFormationCore.WebUi.Controllers
 
             if (String.IsNullOrEmpty(viewModel.Nom) || String.IsNullOrEmpty(viewModel.Note))
             {
-                return RedirectToAction("LaisserUnAvis", new { idFormation = viewModel.idFormation });
+                return RedirectToAction("LaisserUnAvis", new { idFormation = viewModel.IdFormation });
             }
 
             AvisRepository repository = new AvisRepository();
-            repository.SaveAvis(viewModel.Commentaire, viewModel.Nom, viewModel.idFormation);
+            repository.SaveAvis(viewModel.Commentaire, viewModel.Nom, viewModel.IdFormation);
 
-            return RedirectToAction("DetailsFormation", "Formation", new { idFormation = viewModel.idFormation });
+            return RedirectToAction("DetailsFormation", "Formation", new { idFormation = viewModel.IdFormation });
 
         }
 

@@ -11,10 +11,7 @@
 
     <a asp-controller="Formation"
        asp-action="DetailsFormation"
-       asp-route="@formation.Id">@formation.Nom</a>
-
-
-
+       asp-route-idFormation="@formation.Id">@formation.Nom</a>
 
     <p>Nom de la formation : formation.Nom</p>
     <p>Description de la formation : @formation.Description</p>

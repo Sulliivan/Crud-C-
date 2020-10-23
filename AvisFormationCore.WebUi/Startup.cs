@@ -12,6 +12,7 @@ using AvisFormationCore.WebUi.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Data;
 
 namespace AvisFormationCore.WebUi
 {
@@ -34,6 +35,14 @@ namespace AvisFormationCore.WebUi
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<MonDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
+            services.AddControllersWithViews();
+            services.AddRazorPages();
+
+            services.AddTransient<IFormationRepository, FormationRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

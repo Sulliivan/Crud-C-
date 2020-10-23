@@ -160,12 +160,14 @@ C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.csproj.CoreCompileInputs.cache
-C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Formation\Index.cshtml.g.cs
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\Data.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Formation\ToutesLesFormations.cshtml.g.cs
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Formation\DetailsFormations.cshtml.g.cs
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Avis\LaisserUnAvis.cshtml.g.cs
+C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Contact\SaveMessage.cshtml.g.cs
+C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.csproj.CoreCompileInputs.cache
+C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.MvcApplicationPartsAssemblyInfo.cache

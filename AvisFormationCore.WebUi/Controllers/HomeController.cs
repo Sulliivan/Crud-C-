@@ -6,21 +6,27 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using AvisFormationCore.WebUi.Models;
+using Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace AvisFormationCore.WebUi.Controllers
-{
+{ 
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        IFormationRepository _repository;
+
+        public HomeController(IFormationRepository repository)
         {
-            _logger = logger;
+            _repository = repository;
         }
 
         public IActionResult Index()
         {
-            return View();
+
+            var listFormations = _repository.GetFormations(4);
+
+            return View(listFormations);
         }
 
     }

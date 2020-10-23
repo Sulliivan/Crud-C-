@@ -1,0 +1,21 @@
+﻿@model EnvoiEmailViewModel
+@{
+    ViewData["Title"] = "Contactez nous !";
+}
+
+<h1>Contactez nous !</h1>
+<p>Avez vous trouvé un bug ?</p>
+<p>Avez vous des suggestions pour améliorer ce site ?</p>
+<p>Dites le nous ?</p>
+<br />
+<form action="/Contact/SaveMessage">
+
+    @Html.ValidationSummary()
+
+    <input type="text" name="nom" value="@Model.Nom"/>
+    <input type="text" name="email" value="@Model.Email" />
+    <textarea cols="10" name="message" value="@Model.Message"></textarea>
+    
+    <input type="submit" value="Envoyer un message" />
+
+</form>

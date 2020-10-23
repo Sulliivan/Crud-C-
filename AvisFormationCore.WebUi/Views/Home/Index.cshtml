@@ -1,8 +1,28 @@
-﻿@{
+﻿@model List<Data.Formation>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<p>Voici nos formations phares :</p>
+
+@foreach (var formation in Model)
+{
+    <p>Nom de la formation : @formation.Nom</p>
+
+    <a asp-controller="Formation"
+       asp-action="DetailsFormation"
+       asp-route-idFormation="@formation.Id">@formation.Nom</a>
+    <p>Description de la formation : @formation.Description</p>
+    <br />
+}
+
+@section Scripts
+{    
+<script>
+    $(document).ready(function () {
+        alert('script fonctionne');
+    });
+</script>
+}
+
+
