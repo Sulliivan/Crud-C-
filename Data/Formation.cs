@@ -13,5 +13,7 @@ namespace Data
         [Required]
         public string NomSeo { get; set; }
         public string Description { get; set; }
+
+        public List<Avis> Avis { get; set; }
     }
 }

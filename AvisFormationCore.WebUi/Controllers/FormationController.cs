@@ -51,13 +51,18 @@ namespace AvisFormationCore.WebUi.Controllers
                 return RedirectToAction("ToutesLesFormations");
             }
 
+
             var formation = _repository.GetFormationById(iIdFormation);
             if(formation == null)
             {
                 return RedirectToAction("ToutesLesFormations");
             }
+            var vm = new DetailFormationViewModel();
+            vm.Formation = formation;
+            if (formation.Avis != null && formation.Avis.Count > 0)
+                vm.NoteMoyenne = formation.Avis.Select(a=>a.Note).ToList().Average();
 
-            return View(formation);
+            return View(vm);
         }
     }
 }

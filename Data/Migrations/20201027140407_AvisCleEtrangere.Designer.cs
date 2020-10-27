@@ -3,14 +3,16 @@ using Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Data.Migrations
 {
     [DbContext(typeof(MonDbContext))]
-    partial class MonDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201027140407_AvisCleEtrangere")]
+    partial class AvisCleEtrangere
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -68,36 +70,6 @@ namespace Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Formations");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Description = "Grace a cette formation vous saurez créer votre site web",
-                            Nom = "Créer votre site web avec ASP.NET Core",
-                            NomSeo = "asp-net-core"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Description = "Grace à cette formation Blah blah Blah",
-                            Nom = "Creer votre site web avec PHP",
-                            NomSeo = "php"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Description = "Apprenez a faire du jardinage",
-                            Nom = "Devenez un pro du jardinage",
-                            NomSeo = "pro-jardinage"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Description = "un pro de la photo, Blah blah Blah",
-                            Nom = "Photo Pro",
-                            NomSeo = "photo-pro"
-                        });
                 });
 
             modelBuilder.Entity("Data.Avis", b =>
