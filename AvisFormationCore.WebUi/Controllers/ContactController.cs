@@ -24,6 +24,8 @@ namespace AvisFormationCore.WebUi.Controllers
                 return View("Index", viewmodel);
             }
 
+
+
             return View();
         }
     }

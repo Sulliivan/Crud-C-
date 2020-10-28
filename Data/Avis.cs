@@ -22,3 +22,4 @@ namespace Data
         public Formation Formation { get; set; }
     }
 }
+ 
