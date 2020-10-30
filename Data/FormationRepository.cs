@@ -17,7 +17,7 @@ namespace Data
 
         public List<Formation> GetFormations(int nombre)
         {
-            return _context.Formations.OrderBy(qu => Guid.NewGuid()).Take(nombre).ToList();
+            return _context.Formations.Include("Avis").OrderBy(qu => Guid.NewGuid()).Take(nombre).ToList();
         }
 
         public List<Formation> GetAllFormations()

@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using AvisFormationCore.WebUi.Models;
 using Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic;
 
 namespace AvisFormationCore.WebUi.Controllers
 { 
@@ -23,10 +24,21 @@ namespace AvisFormationCore.WebUi.Controllers
 
         public IActionResult Index()
         {
-
             var listFormations = _repository.GetFormations(4);
+            var vm = new List<DetailFormationViewModel>();
+            foreach (var f in listFormations)
+            {
+                vm.Add(
+                    new DetailFormationViewModel
+                    {
+                        Formation = f,
+                        NoteMoyenne = f.Avis.Select(a => a.Note)
+                        .DefaultIfEmpty(0).Average()
+                    });
 
-            return View(listFormations);
+            }
+
+            return View(vm);
         }
 
     }

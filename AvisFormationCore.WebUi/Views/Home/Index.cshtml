@@ -1,4 +1,4 @@
-﻿@model List<Data.Formation>
+﻿@model List<DetailFormationViewModel>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -52,22 +52,37 @@
     </div>
 </section>
 
+<div class="row text-center justify-content-md-center">
 
-<p>Voici nos formations phares :</p>
+    @foreach (var formation in Model)
+    {
+        <div class="formation-block col-md-6 ">
+            <a asp-controller="Formation"
+               asp-action="DetailsFormation"
+               asp-route-idFormation="@formation.Formation.Id">@formation.Formation.Nom
+            </a>
 
-@foreach (var formation in Model)
-{
-    <p>Nom de la formation : @formation.Nom</p>
-
-    <a asp-controller="Formation"
-       asp-action="DetailsFormation"
-       asp-route-idFormation="@formation.Id">@formation.Nom</a>
-    <p>Description de la formation : @formation.Description</p>
-    <br />
-}
+            @if(@formation.NoteMoyenne> 0)
+            {
+                <div>
+                    @formation.NoteMoyenne/5
+                    @for (int i = 1; i <= formation.NoteMoyenne; i++)
+                    {
+                         <span class="fa fa-star orange"></span>
+                    }
+                </div>
+            }
+            else
+            {
+                <div>Aucun Avis</div>
+            }
+            <p>@formation.Formation.Description</p>
+        </div>
+    }
+</div>
 
 @section Scripts
-{    
+{
 <script>
     $(document).ready(function () {
         alert('script fonctionne');
