@@ -44,6 +44,7 @@ namespace AvisFormationCore.WebUi
 
             services.AddTransient<IFormationRepository, FormationRepository>();
             services.AddTransient<IAvisRepository, AvisRepository>();
+            services.AddTransient<IContactRepository, ContactRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

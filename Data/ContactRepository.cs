@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Data
 {
-    public class ContactRepository
+    public class ContactRepository : IContactRepository
     {
-
+        MonDbContext _context;
         public ContactRepository(MonDbContext context)
         {
             _context = context;
@@ -22,5 +22,9 @@ namespace Data
             _context.Messages.Add(msg);
             _context.SaveChanges();
         }
+    }
+    public interface IContactRepository
+    {
+        public void SaveMessage(string nom, string email, string message);
     }
 }

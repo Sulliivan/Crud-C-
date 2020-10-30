@@ -50,11 +50,9 @@ C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
@@ -62,7 +60,6 @@ C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.csprojAssemblyReference.cache
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.AssemblyInfoInputs.cache
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.AssemblyInfo.cs
@@ -168,6 +165,8 @@ C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Avis\LaisserUnAvis.cshtml.g.cs
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\Razor\Views\Contact\SaveMessage.cshtml.g.cs
+C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\bin\Debug\netcoreapp3.1\FontAwesome.Sharp.dll
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.csproj.CoreCompileInputs.cache
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\arinfo\source\repos\AvisFormationCore.WebUi\AvisFormationCore.WebUi\obj\Debug\netcoreapp3.1\AvisFormationCore.WebUi.MvcApplicationPartsAssemblyInfo.cache

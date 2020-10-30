@@ -69,3 +69,50 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+
+
+.jumbotron {
+  background-color: black;
+  color: orange;
+  margin-bottom: 0;
+}
+
+.avantages{
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.orange{
+    color: orange;
+}
+
+.badge{
+    background-color: #E6F2F5;
+}
+
+.widget-top {
+    background-color: white;
+    padding: 15px;
+}
+
+.widget-bottom{
+    background-color:orange;
+    color: white;
+    padding: 15px;
+}
+
+.padding15{
+    padding: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.widget{
+    border: 1px solid orange;
+    border-radius: 4px;
+    margin: 10px;
+}
